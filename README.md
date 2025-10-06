@@ -32,21 +32,21 @@ PAiCore Technologies' SMSC provides a robust and versatile solution for a wide r
 	#### Configure Redis Cluster
 	Once Redis is installed, you need to configure a cluster. The following steps are an example of how this can be achieved with a script:
 	##### Create a new Redis cluster directory
-	`sudo mkdir -p /opt/paic/redis-cluster`
+	`sudo mkdir -p /opt/paic/smsc/redis-cluster`
 		
 	##### Create sub-directories for each cluster node
 	In the example below, each sub-directory is named after the respective port:
 	```shell
-	sudo mkdir -p /opt/paic/redis-cluster/7000
-	sudo mkdir -p /opt/paic/redis-cluster/7001
-	sudo mkdir -p /opt/paic/redis-cluster/7002
-	sudo mkdir -p /opt/paic/redis-cluster/7003
-	sudo mkdir -p /opt/paic/redis-cluster/7004
-	sudo mkdir -p /opt/paic/redis-cluster/7005
-	sudo mkdir -p /opt/paic/redis-cluster/7006
-	sudo mkdir -p /opt/paic/redis-cluster/7007
-	sudo mkdir -p /opt/paic/redis-cluster/7008
-	sudo mkdir -p /opt/paic/redis-cluster/7009
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7000
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7001
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7002
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7003
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7004
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7005
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7006
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7007
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7008
+	sudo mkdir -p /opt/paic/smsc/redis-cluster/7009
 	```
 	##### Create a Redis configuration file for each node
 	Below is an example for one of the nodes. You need to change the ports accordingly:
@@ -73,43 +73,43 @@ PAiCore Technologies' SMSC provides a robust and versatile solution for a wide r
 	`sudo vim /opt/paic/smsc/redis-cluster/start-cluster.sh`
 
 	```shell
-	cd /opt/paic/redis-cluster/7000
+	cd /opt/paic/smsc/redis-cluster/7000
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 	
-	cd /opt/paic/redis-cluster/7001
+	cd /opt/paic/smsc/redis-cluster/7001
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 	
-	cd /opt/paic/redis-cluster/7002
+	cd /opt/paic/smsc/redis-cluster/7002
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 	
-	cd /opt/paic/redis-cluster/7003
+	cd /opt/paic/smsc/redis-cluster/7003
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 	
-	cd /opt/paic/redis-cluster/7004
+	cd /opt/paic/smsc/redis-cluster/7004
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 	
-	cd /opt/paic/redis-cluster/7005
+	cd /opt/paic/smsc/redis-cluster/7005
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 	
-	cd /opt/paic/redis-cluster/7006
+	cd /opt/paic/smsc/redis-cluster/7006
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 
-	cd /opt/paic/redis-cluster/7007
+	cd /opt/paic/smsc/redis-cluster/7007
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 	
-	cd /opt/paic/redis-cluster/7008
+	cd /opt/paic/smsc/redis-cluster/7008
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 	
-	cd /opt/paic/redis-cluster/7009
+	cd /opt/paic/smsc/redis-cluster/7009
 	rm -rf appendonlydir  dump.rdb  nodes.conf
 	redis-server ./redis.conf --daemonize yes
 	
@@ -130,10 +130,10 @@ PAiCore Technologies' SMSC provides a robust and versatile solution for a wide r
 	redis-cli -p 7009 FLUSHDB
 	```
 	##### Provide permissions to the scripts:
-	`sudo chmod 755 /opt/paic/redis-cluster/*sh`
+	`sudo chmod 755 /opt/paic/smsc/redis-cluster/*sh`
 	##### Start the cluster and check status:
 	```shell
-	cd /opt/paic/redis-cluster
+	cd /opt/paic/smsc/redis-cluster
 	sudo ./start-cluster.sh
 	ps -fea | grep redis
 	```
