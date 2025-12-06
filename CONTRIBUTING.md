@@ -1,4 +1,4 @@
-# Contributing to PAiC SMSC
+# Contributing to PAiCore SMSC
 
 First off, thank you for considering contributing to this project! Whether it's fixing a bug, improving documentation, or building a new feature, we appreciate your effort. Below is a set of guidelines that will help you make your contributions smoothly and ensure that we can review and integrate them as efficiently as possible.
 
