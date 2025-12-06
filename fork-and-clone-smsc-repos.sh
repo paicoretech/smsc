@@ -18,13 +18,11 @@ DESTINATION="$1"
 # List of repositories (user/repo)
 repos=(
     "paicbd/smsc-management-fe"
-    "paicbd/ss7-client-module"
     "paicbd/smsc-management-be"
     "paicbd/http-server-module"
     "paicbd/http-client-module"
     "paicbd/smpp-server-module"
     "paicbd/smpp-client-module"
-    "paicbd/smsc-orchestrator"
     "paicbd/smsc-retries-module"
     "paicbd/db-insert-data"
     "paicbd/smsc-utils"
