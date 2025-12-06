@@ -1,4 +1,4 @@
-# PAiCore Technologies SMSC – Free Basic Edition
+# PAiCore Technologies SMSC – Free Basic Version
 
 ## Overview
 
@@ -35,7 +35,7 @@ We will provide the appropriate technical documentation.
 
 # Installation (Recommended) – Using the Installer
 
-The recommended method for deploying the Free Basic Edition is the installer distributed via GitHub Releases(https://github.com/paicbd/smsc/releases).
+The recommended method for deploying the Free Basic Version is the installer distributed via GitHub Releases(https://github.com/paicbd/smsc/releases).
 
 The `.tar.gz` package includes:  
 - Environment files  
@@ -80,7 +80,7 @@ scripts/
 
 A valid license file is required to run the SMSC.
 
-To request a license for the Free Basic Edition, **you must contact us directly** via:
+To request a license for the Free Basic Version, **you must contact us directly** via:
 
 👉 https://paicore.tech/smsc/
 
@@ -111,7 +111,7 @@ The installer performs:
 
 ---
 
-# Docker Images – Free Basic Edition
+# Docker Images – Free Basic Version
 
 ### SMSC Modules
 
