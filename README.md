@@ -123,7 +123,7 @@ paicbusinessdev/free-basic-retries-module:3.0.0-2
 paicbusinessdev/free-basic-smpp-client-module:3.0.0-3
 paicbusinessdev/free-basic-smpp-server-module:3.0.0-3
 paicbusinessdev/free-basic-smsc-management-be:3.0.0-2
-paicbusinessdev/free-basic-smsc-management-fe:3.0.0-2
+paicbusinessdev/free-basic-smsc-management-fe:3.0.0-3
 paicbusinessdev/free-basic-smsc-routing-module:3.0.0-3
 paicbusinessdev/kafka:4.0.0
 paicbusinessdev/scylla:5.2.0
