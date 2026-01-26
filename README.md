@@ -1,4 +1,4 @@
-# PAiCore Technologies SMSC – Free Basic Version
+# PAiCore Technology SMSC – Free Basic Version
 
 ## Overview
 
