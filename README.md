@@ -116,20 +116,20 @@ The installer performs:
 ### SMSC Modules
 
 ```
-paicbusinessdev/free-basic-db-insert-data:3.0.0-2
-paicbusinessdev/free-basic-http-client-module:3.0.0-2
-paicbusinessdev/free-basic-http-server-module:3.0.0-2
-paicbusinessdev/free-basic-retries-module:3.0.0-2
-paicbusinessdev/free-basic-smpp-client-module:3.0.0-3
-paicbusinessdev/free-basic-smpp-server-module:3.0.0-3
-paicbusinessdev/free-basic-smsc-management-be:3.0.0-2
-paicbusinessdev/free-basic-smsc-management-fe:3.0.0-3
-paicbusinessdev/free-basic-smsc-routing-module:3.0.0-3
+paicbusinessdev/free-basic-db-insert-data:3.1.0-5
+paicbusinessdev/free-basic-http-client-module:3.1.0-4
+paicbusinessdev/free-basic-http-server-module:3.1.0-4
+paicbusinessdev/free-basic-retries-module:3.1.0-4
+paicbusinessdev/free-basic-smpp-client-module:3.1.0-5
+paicbusinessdev/free-basic-smpp-server-module:3.1.0-6
+paicbusinessdev/free-basic-smsc-management-be:3.1.0-1
+paicbusinessdev/free-basic-smsc-management-fe:3.1.0-2
+paicbusinessdev/free-basic-smsc-routing-module:3.1.0-6
 paicbusinessdev/kafka:4.0.0
 paicbusinessdev/scylla:5.2.0
+paicbusinessdev/pg-partman
 provectuslabs/kafka-ui:latest
-citusdata/citus:12.0.0
-citusdata/membership-manager:0.3.0
+
 ```
 
 ---
