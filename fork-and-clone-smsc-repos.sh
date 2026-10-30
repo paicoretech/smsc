@@ -29,6 +29,8 @@ repos=(
     "paicbd/jss7"
     "paicbd/jsmpp"
     "paicbd/sctp"
+    "paicoretech/smsf-module"
+    "paicoretech/5g-sba-stack"
 )
 
 # Get the token and username

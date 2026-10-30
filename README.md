@@ -6,10 +6,14 @@ The **PAiCore SMSC** is a high-performance, multi-protocol Short Message Service
 
 Supported messaging flows:
 
-- HTTP ↔ SMPP  
-- HTTP ↔ SS7/SIGTRAN  
-- SMPP ↔ SS7/SIGTRAN  
-- HTTP-based custom applications  
+- HTTP ↔ HTTP
+- HTTP ↔ SMPP
+- SMPP ↔ SMPP
+- HTTP ↔ HTTP/2
+- SMPP ↔ HTTP/2
+- HTTP/2 ↔ HTTP/2
+
+The platform now includes **5G integration** through the **SMSF Module** and the **5G SBA Stack**, extending the SMSC with 5G service-based architecture capabilities for modern mobile networks.
 
 ---
 
@@ -17,7 +21,7 @@ Supported messaging flows:
 
 - Open-source core for extensibility and community-driven improvements.  
 - Up to **12,000 TPS per instance** (hardware-dependent).  
-- Support for **SMPP / Http**.  
+- Support for **SMPP, HTTP, HTTP/2, and 5G SMSF integration**.
 - Compatible with Kafka, ScyllaDB, Redis Cluster, PostgreSQL.  
 
 ---
